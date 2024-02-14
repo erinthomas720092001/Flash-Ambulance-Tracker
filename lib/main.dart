@@ -9,10 +9,10 @@ void main() async {
 
   Platform.isAndroid ? await Firebase.initializeApp(
     options: const FirebaseOptions(
-        apiKey: "AIzaSyButYRGdRZoJOGX5W2aU3ZFjrQdtCh6qn4",
-        appId: "1:469235333597:android:19b585f8785d166be6de34",
-        messagingSenderId: "469235333597",
-        projectId: "flash-6d3d6"
+        apiKey: "AIzaSyB7hqrbXmU0nCCw1PJ9k7BglxZHOybNWhc",
+        appId: "1:1026403679002:android:a55f08f171cc63680e8aa3",
+        messagingSenderId: "1026403679002",
+        projectId: "flash-59b3e"
     )
   ) : await Firebase.initializeApp();
   runApp(const MyApp());
